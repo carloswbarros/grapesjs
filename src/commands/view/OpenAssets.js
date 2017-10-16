@@ -4,7 +4,7 @@ module.exports = {
     const modal = editor.Modal;
     const am = editor.AssetManager;
     const config = am.getConfig();
-    const title = opts.modalTitle || config.modalTitle || '';
+    const title = config.modalTitle || opts.modalTitle || '';
 
     am.setTarget(opts.target);
     am.onClick(opts.onClick);
