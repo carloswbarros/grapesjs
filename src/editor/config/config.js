@@ -113,18 +113,18 @@ module.exports = {
   //Configurations for Device Manager
   deviceManager: {
     devices: [{
-        name: 'Desktop',
+        name: 'Computador',
         width: '',
       },{
         name: 'Tablet',
         width: '768px',
         widthMedia: '992px',
       },{
-        name: 'Mobile landscape',
+        name: 'Telémovel (de lado)',
         width: '568px',
         widthMedia: '768px',
       },{
-        name: 'Mobile portrait',
+        name: 'Telémovel (de pé)',
         width: '320px',
         widthMedia: '480px',
     }],
@@ -134,15 +134,15 @@ module.exports = {
   styleManager: {
 
     sectors: [{
-        name: 'General',
+        name: 'Geral',
         open: false,
         buildProps: ['float', 'display', 'position', 'top', 'right', 'left', 'bottom'],
       },{
-        name: 'Dimension',
+        name: 'Dimensões',
         open: false,
         buildProps: ['width', 'height', 'max-width', 'min-height', 'margin', 'padding'],
       },{
-        name: 'Typography',
+        name: 'Tipografia',
         open: false,
         buildProps: ['font-family', 'font-size', 'font-weight', 'letter-spacing', 'color', 'line-height', 'text-align', 'text-shadow'],
         properties: [{
@@ -155,7 +155,7 @@ module.exports = {
             ],
         }]
       },{
-        name: 'Decorations',
+        name: 'Decorações',
         open: false,
         buildProps: ['border-radius-c', 'background-color', 'border-radius', 'border', 'box-shadow', 'background'],
       },{
