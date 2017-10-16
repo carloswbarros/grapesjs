@@ -27,10 +27,10 @@ module.exports = (() => ({
       // Define placeholder
       switch (prop) {
         case 'title': case 'alt': case 'id':
-          obj.placeholder = 'eg. Text here';
+          obj.placeholder = 'ex. Texto aqui';
           break;
         case 'href':
-          obj.placeholder = 'eg. https://google.com';
+          obj.placeholder = 'ex. https://google.com';
           break;
       }
 
@@ -39,8 +39,8 @@ module.exports = (() => ({
       switch (prop) {
         case 'target':
           obj.options = [
-            {value: '', name: 'This window'},
-            {value: '_blank', name: 'New window'}
+            {value: '', name: 'Esta Janela'},
+            {value: '_blank', name: 'Nova Janela'}
           ];
           break;
       }
